@@ -1,0 +1,60 @@
+body{
+background-image: url(https://www.monsenso.com/wp-content/uploads/2017/01/corporate-background-.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: red;
+}
+.container{
+display: grid;
+place-items: center;
+height: 100vh; 
+}
+.card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+}
+
+.card-content {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Propic{
+ position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+}
